@@ -1,0 +1,98 @@
+.btn {
+    cursor: pointer;
+    border: 0px;
+    background-color: transparent;
+    height: fit-content;
+    width:  fit-content;
+    color: inherit;
+    transition-duration: 0.2s;
+    font-size: 2rem;
+     
+     }
+
+    
+
+
+.css-button-arrow--grey {
+min-width: 130px;
+height: 40px;
+color: #fff;
+
+font-weight: bold;
+font-size: 2rem;
+cursor: pointer;
+transition: all 0.3s ease;
+position: relative;
+display: inline-block;
+outline: none;
+overflow: hidden;
+border-radius: 5px;
+border: none;
+background-color: #6c757d
+}
+.css-button-arrow--grey:hover {
+border-radius: 5px;
+padding-right: 24px;
+padding-left:8px;
+}
+.css-button-arrow--grey:hover:after {
+opacity: 1;
+right: 10px;
+}
+.css-button-arrow--grey:after {
+content: "\00BB";
+position: absolute;
+opacity: 0;
+font-size: 20px;
+line-height: 40px;
+top: 0;
+right: -20px;
+transition: 0.4s;
+}
+
+     
+
+.btn:hover {
+
+    opacity: 0.5;
+
+              }
+
+
+.fontp{
+
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 2rem;
+
+
+}
+
+
+ 
+
+.inpbox{
+
+
+
+    border: none;
+    border-bottom-style: solid ;
+    border-bottom-width: 2px;
+    border-color: #6c757d;
+
+}
+
+.inpbox:focus{
+
+    border: none;
+    outline: none;
+    border-bottom-style:groove ;
+    border-bottom-width: 3px;
+    
+     
+
+     
+
+    border-color: #86898b;
+
+
+}
